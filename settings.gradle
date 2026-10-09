@@ -1,0 +1,2 @@
+rootProject.name = 'Suiyan Keyboard'
+include ':app'
