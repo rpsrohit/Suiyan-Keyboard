@@ -3,9 +3,6 @@ workflows:
     name: Build APK
     instance_type: mac_mini
     max_build_duration: 30
-    environment:
-      android_home: /Users/builder/Android
-      java_home: /Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
     scripts:
       - name: Build
         script: |
